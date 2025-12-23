@@ -134,6 +134,7 @@
 
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import Loading from './Loading';
 
 const Pagination = () => {
   const [products, setProducts] = useState([]);
@@ -186,7 +187,7 @@ const Pagination = () => {
     <div
       style={{
         minHeight: "100vh",
-        width: "100vw",
+        width: "98vw",
         padding: "30px",
         boxSizing: "border-box",
         background: "#f5f5f5",
@@ -248,7 +249,8 @@ const Pagination = () => {
           ))
         ) : (
           <p style={{ gridColumn: "1/-1", textAlign: "center" }}>
-            No products found
+            {/* No products found */}
+            <Loading />
           </p>
         )}
       </div>
