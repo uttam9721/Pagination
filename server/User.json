@@ -1,0 +1,28 @@
+{
+  "user": [
+    {
+      "id": "207d",
+      "name": "Priyanka Kushwaha",
+      "password": "1234",
+      "email": "priya@gmail.com"
+    },
+    {
+      "id": "4e74",
+      "name": "Priya",
+      "password": "1234",
+      "email": "priya123@gmail.com"
+    },
+    {
+      "id": "b7a7",
+      "name": "Priyanka",
+      "password": "1234",
+      "email": "priyanka@gmail.com"
+    },
+    {
+      "id": "e986",
+      "name": "Uttam Maurya",
+      "password": "1234",
+      "email": "uttammaurya377@gmail.com"
+    }
+  ]
+}
