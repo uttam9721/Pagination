@@ -248,10 +248,10 @@ const Pagination = () => {
             </div>
           ))
         ) : (
-          <p style={{ gridColumn: "1/-1", textAlign: "center" }}>
-            {/* No products found */}
+
+
             <Loading />
-          </p>
+          
         )}
       </div>
 
@@ -275,6 +275,7 @@ const Pagination = () => {
 
           {[...Array(totalPages)].map((_, index) => (
             <button
+              className="border border-black px-3"
               key={index}
               onClick={() => setCurrentPage(index + 1)}
               style={{
@@ -292,6 +293,7 @@ const Pagination = () => {
           ))}
 
           <button
+          className="border border-black px-3"
             disabled={currentPage === totalPages}
             onClick={() => setCurrentPage((p) => p + 1)}
           >

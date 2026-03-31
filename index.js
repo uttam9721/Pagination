@@ -139,7 +139,7 @@
 
 
 
-let arr = [1, 2, 4, 5];
+// let arr = [1, 2, 4, 5];
 
 // let n = arr.length + 1;   // Because one number is missing
 // let expectedSum = (n * (n + 1)) / 2;
@@ -151,11 +151,96 @@ let arr = [1, 2, 4, 5];
 
 // let missing = expectedSum - actualSum;
 // console.log(missing); // Output: 3
-let n=arr.length+1;
-let total=(n*(n+1))/2;
-let sum =0;
-for(let i=0;i<arr.length;i++){
-    sum=sum+arr[i];
+// let n=arr.length+1;
+// let total=(n*(n+1))/2;
+// let sum =0;
+// for(let i=0;i<arr.length;i++){
+//     sum=sum+arr[i];
+// }
+// let totalsum=total-sum;
+// console.log(totalsum);
+
+
+// let arr =[1,2,1,3,5,2];
+// let uniq=[];
+// for(let i=0;i<arr.length;i++){
+//     if (!uniq.includes(arr[i])) {
+//         uniq.push(arr[i]);
+        
+//     }
+// }
+// console.log(uniq);
+
+
+
+// let arr = [1,2,4,5];
+// let n=arr.length+1;
+// let sum =0;
+// let totalSum=(n*(n+1))/2;
+// for(let i=0;i<arr.length;i++){
+//     sum=sum+arr[i];
+// }
+// let res=totalSum-sum;
+// console.log(res);
+
+
+// let arr=[1,0,0,1,0,1,0,0];
+// let i=0;
+// let j=0;
+// while(i<arr.length){ 
+//     if (arr[i]==0) {
+//         let temp= arr[i];
+//         arr[i]=arr[j];
+//         arr[j]=temp;
+//             j++;
+        
+//     }
+//     i++
+// }
+// console.log(arr);
+
+
+// let arr=[1,2,3,4,5];
+// let i=0;
+// let j=arr.length-1;
+// while(i<=j){
+//    let temp=arr[i];
+//    arr[i]=arr[j];
+//    arr[j]=temp;
+//    i++
+//    j--
+
+// }
+// console.log(arr);
+
+
+// console.log(0.1+0.1===0.2);
+// console.log([]+[]);
+
+
+// let arr =[1,2,3,4,5];
+// for(let k=1;k<3;k++){
+//     let copy=arr[arr.length-1];
+
+//     for(let i=arr.length-1;i>0;i--){
+//         arr[i]=arr[i-1];
+//     }
+//     arr[0]=copy;
+// }
+// console.log(arr);
+
+// for(let k=1;k<3;k++){
+//     let copy=arr[0];
+//     for(let i=0;i<arr.length;i++){
+//         arr[i]=arr[i+1];
+//     }
+//     arr[arr.length-1]=copy
+// }
+// console.log(arr);
+
+
+
+async function add(){
+   await console.log('hii');
 }
-let totalsum=total-sum;
-console.log(totalsum);
+add()
