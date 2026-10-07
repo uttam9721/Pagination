@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import Sum from './components/Sum'
 import SearchExample from './components/Search'
+import hook from './pages/hook';
 
 const App = () => {
   const [count,setCount]=useState(0)
@@ -13,7 +14,8 @@ const App = () => {
       onClick={()=>setCount(count+1)}
       >Increase</button>
       <Sum /> */}
-      <SearchExample />
+      {/* <SearchExample /> */}
+      <hook />
      
     </div>
   )
